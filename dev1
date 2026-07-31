@@ -1,3 +1,92 @@
-pull request check
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Horizon - a simple, responsive website built with HTML5 and CSS3.">
+    <title>Home | Horizon</title>
+
+    <!-- Google Font: Poppins (falls back to system fonts if offline) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Shared stylesheet used by every page -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===================== Header & Navigation ===================== -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">H</span>
+                Horizon
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===================== Hero Section ===================== -->
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Horizon</h1>
+                <p>
+                    A simple, responsive, and professionally designed website built
+                    with pure HTML5 and CSS3 &mdash; no frameworks, no complications,
+                    just clean code and thoughtful design.
+                </p>
+                <a href="about.html" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <!-- ===================== Purpose Section ===================== -->
+        <section class="purpose">
+            <div class="container">
+                <h2 class="section-title">Why This Website?</h2>
+                <p class="section-subtitle">
+                    This project demonstrates how a clean, modern, multipage
+                    website can be built using only HTML5 and CSS3.
+                </p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">🎨</div>
+                        <h3>Clean Design</h3>
+                        <p>A minimal, professional layout that keeps the focus on content and usability.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h3>Fully Responsive</h3>
+                        <p>Looks great on every device, from large desktop screens to small mobile phones.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Simple &amp; Fast</h3>
+                        <p>Built with pure HTML5 and CSS3, so pages load quickly and stay easy to maintain.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===================== Footer ===================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Horizon. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
  
  
